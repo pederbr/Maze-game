@@ -4,6 +4,8 @@ Av Peder Brennum
 
 ### Beskrivelse av appen ###
 
+For å starte må filen `src\main\java\mazeGame\MazeApplication.java` kjøres.
+
 Denne applikasjonen er et labyrint-spill der spilleren kan generere og prøve å løse labyrinter med valgfri vanskelighetsgrad. Gjennomføringen til spilleren lagres i en dynamisk rekordliste, som er designet slik at den tar høyde for prestasjon kontra tid. Spilleren kan altså komme høyere opp på rekordlisten dersom han velger en høyere vanskelighetsgrad, selv om han bruker lengre tid enn tidligere spillere. Labyrinten genereres av en algoritme som kalles «recursive backtracking», og som fungerer slik:
 
 * Labyrint-generatoren starter på et tilfeldig sted på høyre side av grid-en.
